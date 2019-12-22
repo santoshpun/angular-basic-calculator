@@ -1,0 +1,19 @@
+<div>
+  Sum of 1+2 = {{sum}} <br />
+  Subtraction of 5-2 = {{subtraction}}
+
+  <h2>My favorite hero is: {{myHero}}</h2>
+  <p>Heroes:</p>
+  <ul>
+    <li *ngFor="let hero of heroes">
+      {{ hero }}
+    </li>
+  </ul>
+
+  <p>Users:</p>
+  <ul>
+    <li *ngFor="let user of users">
+      {{user.firstName}} - {{user.lastName}}
+    </li>
+  </ul>
+</div>
